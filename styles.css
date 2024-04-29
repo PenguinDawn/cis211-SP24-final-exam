@@ -1,0 +1,30 @@
+
+
+
+/* Navbar */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+}
+
+nav ul li {
+    list-style: none;
+    font-family: Raleway, sans-serif;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(41, 41, 41);
+}
+nav ul li a:hover {
+    text-decoration: underline;
+}
