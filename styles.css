@@ -18,7 +18,14 @@ body {
 
 h1, h2, a {
     font-family: "Raleway", sans-serif;
+}
 
+h1 {
+    font-size: 2rem;
+}
+
+section {
+    padding-top: 2rem;
 }
 
 
@@ -33,7 +40,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem;
 }
 
 header nav ul{
@@ -60,22 +66,12 @@ nav ul li a:hover {
 
 .featured {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .col-1 {
     width: 50%;
-}
-
-.col-1 h1 {
-    font-size: 2rem;
-}
-
-.col-1 p {
-    font-size: 1.5rem;
-}
-
-#img-1 {
-    width: 90%;
 }
 
 .left-f {
@@ -83,6 +79,54 @@ nav ul li a:hover {
     align-items: center;
     flex-direction: column;
     gap: 10px;
+}
+
+
+
+.search-div {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+/* right featured */
+
+
+#img-1 {
+    width: 100%;
+}
+
+
+/* Productive */
+
+.space-above {
+    margin-top: 10rem;
+}
+
+.productive {
+    display: flex;
+}
+
+.col-2-left {
+    width: 60%;
+}
+
+
+.col-2-right {
+    width: 40%;
+    display: flex;
+    align-items: center;
+}
+
+#img-2 {
+    width: 100%;
+}
+
+/* Start now */
+
+.starting {
+    display: flex;
+
 }
 
 
