@@ -1,11 +1,33 @@
+/* CSS VARIABLES */
 
-
-.contained {
-    padding-left: 2rem;
-    padding-right: 2rem;
+:root {
+    --primary-dark-blue: hsl(243, 87%, 12%);
+    --primary-gray-blue: hsl(238, 22%, 44%);
+    --accent-blue: hsl(224, 93%, 58%);
+    --accent-cyan: hsl(170, 45%, 43%);
+    --neutral-gray-blue: hsl(240, 75%, 98%);
+    --neutral-light-gray: hsl(0, 0%, 75%);
 }
 
+
+/* root styles */
+
+body {
+    font-family: "Open Sans", serif;
+}
+
+h1, h2, a {
+    font-family: "Raleway", sans-serif;
+
+}
+
+
 /* Navbar */
+
+.container {
+    max-width: 1080px;
+    margin-inline: auto;
+}
 
 header {
     display: flex;
@@ -22,7 +44,7 @@ header nav ul{
 
 nav ul li {
     list-style: none;
-    font-family: Raleway, sans-serif;
+    font-family: "Raleway", sans-serif;
 }
 
 nav ul li a{
@@ -34,16 +56,43 @@ nav ul li a:hover {
 }
 
 
+/* Featured Section*/
+
 .featured {
     display: flex;
-    width: 1000px;
 }
 
 .col-1 {
     width: 50%;
 }
 
+.col-1 h1 {
+    font-size: 2rem;
+}
+
+.col-1 p {
+    font-size: 1.5rem;
+}
 
 #img-1 {
     width: 90%;
+}
+
+.left-f {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: var(--primary-dark-blue);
+    color: white;
+}
+
+.row {
+    display: flex;
 }
