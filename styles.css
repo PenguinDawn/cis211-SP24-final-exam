@@ -336,6 +336,22 @@ footer a:hover svg {
         width: 90%;
     }
 
+    .left-f {
+        text-align: center;
+    }
+
+    .search-div {
+        flex-direction: column;
+        gap: 2px;
+    }
+
+    .first-email, .first-button {
+        width: 90%;
+    }
+
+    /* <p class="email first-email">Put email here</p>
+        <p class="button first-button">Get Started</p> */
+
 
 
 
